@@ -3,7 +3,7 @@
 1. Crea una red bridge redbd
     
     ```bash
-    docker network create redbd
+    docker network create --driver bridge redbd
     ```
     
     ![image.png](image.png)
